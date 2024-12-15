@@ -15,6 +15,7 @@ const Index = () => {
   const HandelClickedProduct = useCallback(
     (url) => {
       navigator("/product", { state: url });
+      console.log(url);
     },
     [navigator]
   );
@@ -54,7 +55,7 @@ const Index = () => {
                               src={img}
                               alt="img"
                             />
-                       
+
                             <p className={`${indexStyle.description}`}>
                               {categori.description}
                             </p>

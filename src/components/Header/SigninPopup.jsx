@@ -16,7 +16,7 @@ const SigninPopup = () => {
           <div id="nav-al-signin">
             <div id="nav-flyout-ya-signin " className="nav-flyout-content">
               <Link
-                to={""}
+                to={"/Auth"}
                 className="nav-action-signin-button Account"
                 data-nav-role="signin"
               >
@@ -27,7 +27,6 @@ const SigninPopup = () => {
 
               <div id="nav-flyout-ya-newCust" className="nav_pop_new_cust">
                 <span className="text-dark"> New customer?</span>
-
                 <Link to="">Start here.</Link>
               </div>
             </div>

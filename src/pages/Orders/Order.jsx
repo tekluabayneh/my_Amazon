@@ -13,14 +13,17 @@ import {
 import { db } from "../../Utlity/firebaseConfig/firebaseConfig";
 import "../Cart/cart.css";
 const Order = () => {
-  const [isLoading, setisLoading] = useState(true);
   const { state, dispatch } = useContext(DataContext);
+  const [isLoading, setisLoading] = useState(true);
   const [order, setorder] = useState([]);
+
+  // get the user id from localstorage
+  const uid = localStorage.getItem("userUID");
 
   // fetch user order
   useEffect(() => {
     if (state.user) {
-      const ordersRef = collection(doc(db, "users", state.user.uid), "orders");
+      const ordersRef = collection(db, "users", uid, "orders");
       const ordersQuery = query(ordersRef, orderBy("created", "desc"));
 
       const unsubscribe = onSnapshot(ordersQuery, (snapshot) => {
@@ -66,13 +69,14 @@ const Order = () => {
 
             <div className="cart_list_container">
               {order?.map((item, index) => {
+                console.log(item);
                 return (
                   <>
                     <div key={index} className="item_list">
                       <div className="cartItemImg">
                         <img
                           src={
-                            item?.basket?.image || item?.basket[0]?.images[0]
+                            item.basket[0]?.thumbnail || item.basket[0].image
                           }
                           alt="image"
                         />

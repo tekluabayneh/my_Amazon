@@ -77,10 +77,12 @@ const PaymentForm = () => {
             created: paymentIntent.created,
           }
         );
+        // store the user uid to the localStorge
+        localStorage.setItem("userUID", state.user.uid);
         dispatch({
           type: Type.EMPTY_BASKET,
         });
-        navigator("/", {
+        navigator("/order", {
           state: { msg: "you have placed new order" },
         });
       }

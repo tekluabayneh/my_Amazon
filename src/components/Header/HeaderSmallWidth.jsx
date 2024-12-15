@@ -10,7 +10,7 @@ const HeaderSmallWidth = ({ togglesmallNavClose, settogglesmallNavClose }) => {
       >
         <ul className="sm-navContainer">
           <li>
-            <a className="">
+            <a href="/Auth" className="helloSignin_container pb-2">
               <div className="nav-line-1-container">
                 <span className="helloSignin">Hello,sign in</span>
               </div>
@@ -25,13 +25,13 @@ const HeaderSmallWidth = ({ togglesmallNavClose, settogglesmallNavClose }) => {
             <span className="activeLink"></span>
           </li>
           <li>
-            <a className="retrun_Container">
+            <a href="/order" className="retrun_Container">
               <span className="nav-line-1">Returns &amp; Orders</span>
             </a>
             <span className="activeLink"></span>
           </li>
           <li>
-            <a className="cart_Container">
+            <a href="/cart" className="cart_Container">
               <div>
                 <span aria-hidden="true" className="nav-line-2 fw-bold pt-2">
                   Cart

@@ -7,13 +7,11 @@
   background: #000000;
   display: flex;
   transition: all 0.5s ease-in-out;
-  /* transform: translateY(-900px); */
   z-index: 999;
 }
 
 .sm-width-nav-wrapper_Active {
   transform: translateY(-900px);
-  /* transform: translateY(0px); */
 }
 .sm-width-nav-wrapper .sm-logoContainer li {
   color: wheat;
@@ -57,6 +55,7 @@
 }
 .sm-navContainer li a:first-child:hover + .activeLink {
   width: 12rem;
+  margin-top: 1rem;
 }
 .sm-navContainer li:nth-child(2) a:first-child:hover + .activeLink {
   width: 15rem;

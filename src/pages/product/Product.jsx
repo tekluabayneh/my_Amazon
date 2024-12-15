@@ -101,10 +101,6 @@ const Product = () => {
               return (
                 <div className={HorizontalSCrollStyle.ImgContainer}>
                   <Link to={`/HorizontalproductDetsil/${prod.id}`}>
-                    {/* <img
-                      className={HorizontalSCrollStyle.img}
-                      src={prod.image}
-                    /> */}
                     <ImageWithLoader
                       className={HorizontalSCrollStyle.img}
                       src={prod.image}
@@ -142,12 +138,6 @@ const Product = () => {
               >
                 <div className={ProductStyle.productImageContainer}>
                   {prod.images.slice(0, 1).map((image, index) => (
-                    // <img
-                    //   key={index}
-                    //   src={image}
-                    //   alt={`${prod.title} image ${index + 1}`}
-                    //   className={ProductStyle.productImage}
-                    // />
                     <div className={ProductStyle.productImage}>
                       <ImageWithLoader
                         key={index}

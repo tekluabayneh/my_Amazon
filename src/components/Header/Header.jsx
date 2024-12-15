@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 // import "material-symbols";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import headerStyle from "./header.module.css";
 import "./header.css";
 import DevliverToPopup from "./DevliverToPopup";
@@ -10,6 +10,7 @@ import Temp from "./navSideBar/SideBar_man_content_container";
 import HeaderSmallWidth from "./HeaderSmallWidth";
 import { DataContext } from "../DataProvider/Dataprovider";
 import { auth } from "../../Utlity/firebaseConfig/firebaseConfig";
+import { useCallback } from "react";
 
 const Header = () => {
   const { state, dispatch } = useContext(DataContext);
@@ -20,7 +21,7 @@ const Header = () => {
   const [LocationPopup, setLocationPopup] = useState(false);
   const [isSideBarOpen, setisSideBarOpen] = useState(false);
   const [togglesmallNavClose, settogglesmallNavClose] = useState(true);
-
+  const navigator = useNavigate();
   const TotalItem = state.basket?.reduce((amount, item) => {
     return item.amount + amount;
   }, 0);
@@ -68,6 +69,14 @@ const Header = () => {
     setSearch(e.target.value);
   };
 
+  const HandelClickedProduct = useCallback(
+    (url) => {
+      navigator("/product", { state: url });
+      setSearch("");
+    },
+
+    [navigator]
+  );
   return (
     <header
       className={`${headerStyle.mainHeader} d-flex flex-column bg-primary`}
@@ -134,9 +143,18 @@ const Header = () => {
               onFocus={handleFocus}
               onBlur={handelBlure}
               type="text"
-              placeholder="search"
+              placeholder="Search for products by title or category"
             />
-            <i className="material-symbols-outlined">search</i>
+            <i
+              onClick={() =>
+                HandelClickedProduct(
+                  `https://dummyjson.com/products/category/${Search}`
+                )
+              }
+              className="material-symbols-outlined"
+            >
+              search
+            </i>
           </div>
         </div>
         {/*  */}
@@ -195,12 +213,6 @@ const Header = () => {
                     )}
                   </div>
                 </span>
-                {/* <span className="nav-line-2 fw-bold Acount">
-                  Account &amp; Lists
-                  <span className="material-symbols-outlined nav-arrowIcon Acount">
-                    arrow_drop_down
-                  </span>
-                </span> */}
               </div>
             </Link>
 
@@ -214,7 +226,7 @@ const Header = () => {
             <Link to="/cart" className="cart_Container">
               <div className="nav-cart-count-container">
                 <span className="nav-cart-count text-danger fw-bold-4">
-                  {TotalItem}
+                  {state.basket.length}
                 </span>
                 <svg
                   className="nav-cart-icon"
@@ -265,7 +277,6 @@ const Header = () => {
         </ul>
 
         {/* small navbar end here */}
-
         <div className="navBottomContainer d-flex align-items-center justyfy-content-between">
           <ul className="w-100 pt-3 cursor-pointer ms-2 d-flex gap-3 align-items-center justify-content-start text-white list-unstyled">
             <li
@@ -283,7 +294,6 @@ const Header = () => {
             <li>Gift Card</li>
             <li>Sell</li>
           </ul>
-
           <div className="rightSideNav">
             <span className="text-white pt-2">Shop Cyber Monday Deals</span>
           </div>
