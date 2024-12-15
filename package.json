@@ -1,0 +1,38 @@
+{
+  "name": "my-amazone-app-",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Teklu",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/icons-material": "^6.1.9",
+    "@mui/material": "^6.1.10",
+    "@popperjs/core": "^2.11.8",
+    "@stripe/react-stripe-js": "^3.0.0",
+    "@stripe/stripe-js": "^5.2.0",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.7",
+    "firebase": "^11.0.2",
+    "gsap": "^3.12.5",
+    "lottie-react": "^2.4.0",
+    "material-icons": "^1.13.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-lazyload": "^3.2.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^7.0.2",
+    "react-spinners": "^0.15.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.2"
+  }
+}
