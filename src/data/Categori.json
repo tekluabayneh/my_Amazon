@@ -1,0 +1,290 @@
+[
+  {
+    "slug": "beauty",
+    "name": "Beauty",
+    "description": "Beauty products for skincare, makeup, and more.",
+    "images": [
+      "https://images.unsplash.com/photo-1593487568720-92097fb460fb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fENvc21ldGljc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1610545936431-9983d41e52b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fENvc21ldGljc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1650664370914-f026578ec2a4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fENvc21ldGljc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1620531940052-d0d9aff03c32?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fENvc21ldGljc3xlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/beauty"
+  },
+  {
+    "slug": "fragrances",
+    "name": "Fragrances",
+    "description": "Fresh and captivating perfumes for every occasion.",
+    "images": [
+      "https://images.unsplash.com/photo-1523293182086-7651a899d37f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RnJhZ3JhbmNlJTIwYm90dGxlc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8RnJhZ3JhbmNlJTIwYm90dGxlc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1590156117763-d5909f5ccbc8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEZyYWdyYW5jZSUyMGJvdHRsZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1590736701530-f9e57920dd6f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fEZyYWdyYW5jZSUyMGJvdHRsZXN8ZW58MHx8MHx8fDA%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/fragrances"
+  },
+  {
+    "slug": "furniture",
+    "name": "Furniture",
+    "description": "Modern and stylish furniture for your home.",
+    "images": [
+      "https://images.unsplash.com/photo-1567016432779-094069958ea5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnVybml0dXJlfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1678074057896-eee996d4a23e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZnVybml0dXJlfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1489269637500-aa0e75768394?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGZ1cm5pdHVyZXxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/furniture"
+  },
+  {
+    "slug": "groceries",
+    "name": "Groceries",
+    "description": "Your everyday essentials and fresh produce.",
+    "images": [
+      "https://images.unsplash.com/photo-1585735119407-b037131a352b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGdyb2Nlcmllc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1569254631271-fb470f53fa85?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdyb2Nlcmllc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1584473457406-6240486418e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGdyb2Nlcmllc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1418669112725-fb499fb61127?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdyb2Nlcmllc3xlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/groceries"
+  },
+  {
+    "slug": "home-decoration",
+    "name": "Home Decoration",
+    "description": "Decorate your home with stylish accessories.",
+    "images": [
+      "https://images.unsplash.com/photo-1528568731601-7ebad185aae2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGhvbWUlMjBkZWNvcmF0aW9ufGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1534964652860-3dc4dd30bb29?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGhvbWUlMjBkZWNvcmF0aW9ufGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1658176920718-c5e61ff4333b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGhvbWUlMjBkZWNvcmF0aW9ufGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1682539426477-a3947f3ca98b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGhvbWUlMjBkZWNvcmF0aW9ufGVufDB8fDB8fHww"
+    ],
+    "url": "https://dummyjson.com/products/category/home-decoration"
+  },
+  {
+    "slug": "kitchen-accessories",
+    "name": "Kitchen Accessories",
+    "description": "Essential tools to enhance your kitchen.",
+    "images": [
+      "https://images.unsplash.com/photo-1597393647616-d45e1078312b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8a2l0Y2hlbiUyMGFjY2Vzc29yaWVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1615486261138-c3e95ac12d3d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGtpdGNoZW4lMjBhY2Nlc3Nvcmllc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1724910611795-62729a647100?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8a2l0Y2hlbiUyMGFjY2Vzc29yaWVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1718186096372-f998871c026d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8a2l0Y2hlbiUyMGFjY2Vzc29yaWVzfGVufDB8fDB8fHww"
+    ],
+    "url": "https://dummyjson.com/products/category/kitchen-accessories"
+  },
+  {
+    "slug": "laptops",
+    "name": "Laptops",
+    "description": "Top laptops for work and play.",
+    "images": [
+      "https://images.unsplash.com/photo-1628114855639-f8294222fdc2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxhcHRvcHN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1662394028800-72d251e4bdbb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGxhcHRvcHN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1663704399456-de719a56fc09?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGxhcHRvcHN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1681302427948-2fd0eca629b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGxhcHRvcHN8ZW58MHx8MHx8fDA%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/laptops"
+  },
+  {
+    "slug": "mens-shirts",
+    "name": "Mens Shirts",
+    "description": "Casual and formal shirts for every occasion.",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1725075088969-73798c9b422c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVucyUyMHNoaXJ0c3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1603252110481-7ba873bf42ab?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWVucyUyMHNoaXJ0c3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1635091984256-dc15291bb483?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWVuJTIwc2hpcnR8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVucyUyMHNoaXJ0c3xlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/mens-shirts"
+  },
+  {
+    "slug": "mens-shoes",
+    "name": "Mens Shoes",
+    "description": "Stylish shoes for every man.",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1670984281009-863453504c52?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVucyUyMHNob2VzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1664790560167-5160505f1596?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bWVucyUyMHNob2VzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1553440070-7b7e896ed9e9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1lbnMlMjBzaG9lc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1586882829491-b81178aa622e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1lbnMlMjBzaG9lc3xlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/mens-shoes"
+  },
+  {
+    "slug": "mens-watches",
+    "name": "Mens Watches",
+    "description": "Watches for men, from casual to luxury styles.",
+    "images": [
+      "https://images.unsplash.com/photo-1662230178048-8d1a2649b3dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWVucyUyMHdhdGNoZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1703505841379-2f863b201212?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1lbnMlMjB3YXRjaGVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1715480914396-cf056a24407d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG1lbnMlMjB3YXRjaGVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1660959324988-81af2af528f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1lbnMlMjB3YXRjaGVzfGVufDB8fDB8fHww"
+    ],
+    "url": "https://dummyjson.com/products/category/mens-watches"
+  },
+  {
+    "slug": "mobile-accessories",
+    "name": "Mobile Accessories",
+    "description": "Add-ons to improve your mobile experience.",
+    "images": [
+      "https://images.unsplash.com/photo-1478198697312-304b0bd9475f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9iaWxlJTIwYWNjZXNzb3JpZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1624823183493-ed5832f48f18?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fG1vYmlsZSUyMGFjY2Vzc29yaWVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1681010317761-d0c42fdea9c0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fG1vYmlsZSUyMGFjY2Vzc29yaWVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1565536421961-1f165e0c981e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fG1vYmlsZSUyMGFjY2Vzc29yaWVzfGVufDB8fDB8fHww"
+    ],
+    "url": "https://dummyjson.com/products/category/mobile-accessories"
+  },
+  {
+    "slug": "motorcycle",
+    "name": "Motorcycle",
+    "description": "Motorcycle gear and accessories for riders.",
+    "images": [
+      "https://images.unsplash.com/photo-1481575184241-4754ea78a1bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW90b3JjeWNsZXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1531327431456-837da4b1d562?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vdG9yY3ljbGV8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1558981033-0f0309284409?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1vdG9yY3ljbGV8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1525013066836-c6090f0ad9d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fG1vdG9yY3ljbGV8ZW58MHx8MHx8fDA%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/motorcycle"
+  },
+  {
+    "slug": "sunglasses",
+    "name": "Sunglasses",
+    "description": "Protect your eyes with stylish sunglasses.",
+    "images": [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3VuZ2xhc3Nlc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3VuZ2xhc3Nlc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1664110691050-4cd1fb8e3aa4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c3VuZ2xhc3Nlc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN1bmdsYXNzZXN8ZW58MHx8MHx8fDA%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/sunglasses"
+  },
+  {
+    "slug": "skin-care",
+    "name": "Skin Care",
+    "description": "Products for healthy and glowing skin.",
+    "images": [
+      "https://images.unsplash.com/photo-1600428853876-fb5a850b444f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2tpbiUyMGNhcmV8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1684407616442-8d5a1b7c978e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHNraW4lMjBjYXJlfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1559881230-1af605ca3f67?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHNraW4lMjBjYXJlfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1553533408-feb6dcf2e6f4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHNraW4lMjBjYXJlfGVufDB8fDB8fHww"
+    ],
+    "url": "https://dummyjson.com/products/category/skin-care"
+  },
+  {
+    "slug": "smartphones",
+    "name": "Smartphones",
+    "description": "The latest smartphones for all your needs.",
+    "images": [
+      "https://images.unsplash.com/photo-1574675904801-eb2cca16af12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c21hcnRwaG9uZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1695753456538-3d29fa0a4ba0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNtYXJ0cGhvbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1574771540177-1b67712f6c6e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHNtYXJ0cGhvbmVzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1574763788197-1808b6ac8142?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNtYXJ0cGhvbmVzfGVufDB8fDB8fHww"
+    ],
+    "url": "https://dummyjson.com/products/category/smartphones"
+  },
+  {
+    "slug": "sports-accessories",
+    "name": "Sports Accessories",
+    "description": "Gear up for sports with the latest accessories.",
+    "images": [
+      "https://media.istockphoto.com/id/527959671/photo/fitness-equipment-objects-isolated-on-white.webp?a=1&b=1&s=612x612&w=0&k=20&c=8Vo05e_mvsPnW89JOr3BdTgH2cagLcPgYXlyTXkjIx0=",
+      "https://images.unsplash.com/photo-1542277714-b78e3ad39278?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fHNwb3J0cyUyMGFjY2Vzc29yaWVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1677404693113-1f177df13eb6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjF8fHNwb3J0cyUyMGFjY2Vzc29yaWVzfGVufDB8fDB8fHww",
+      "https://plus.unsplash.com/premium_photo-1663133604256-a97e956adcc8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzN8fHNwb3J0cyUyMGFjY2Vzc29yaWVzfGVufDB8fDB8fHww"
+    ],
+    "url": "https://dummyjson.com/products/category/sports-accessories"
+  },
+  {
+    "slug": "sunglasses",
+    "name": "Sunglasses",
+    "description": "Protect your eyes with stylish sunglasses.",
+    "images": [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3VuZ2xhc3Nlc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1508296695146-257a814070b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3VuZ2xhc3Nlc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1664110691050-4cd1fb8e3aa4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c3VuZ2xhc3Nlc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1502767089025-6572583495f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN1bmdsYXNzZXN8ZW58MHx8MHx8fDA%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/sunglasses"
+  },
+  {
+    "slug": "tablets",
+    "name": "Tablets",
+    "description": "Portable and versatile tablets for all your tasks.",
+    "images": [
+      "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFibGV0c3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1592323818181-f9b967ff537c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRhYmxldHN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1674287945397-d197c12a3195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRhYmxldHN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1512069772995-ec65ed45afd6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHRhYmxldHN8ZW58MHx8MHx8fDA%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/tablets"
+  },
+  {
+    "slug": "womens-bags",
+    "name": "Women's Bags",
+    "description": "Elegant bags for women of all styles.",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8d29tZW5zJTIwYmFnc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1671028547411-12a7fb233ddd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHdvbWVucyUyMGJhZ3N8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1672883551967-ab11316526b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHdvbWVucyUyMGJhZ3N8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1527385352018-3c26dd6c3916?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdvbWVucyUyMGJhZ3N8ZW58MHx8MHx8fDA%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/womens-bags"
+  },
+  {
+    "slug": "womens-dresses",
+    "name": "Women's Dresses",
+    "description": "Stylish dresses for every occasion.",
+    "images": [
+      "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFzaGlvbiUyMGRyZXNzZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFzaGlvbiUyMGRyZXNzZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZmFzaGlvbiUyMGRyZXNzZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1668698471515-c529abcc3772?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZWxpZ2FudCUyMGRyZXNzZXN8ZW58MHx8MHx8fDA%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/womens-dresses"
+  },
+  {
+    "slug": "womens-jewellery",
+    "name": "Women's Jewellery",
+    "description": "Beautiful jewellery for women.",
+    "images": [
+      "https://images.unsplash.com/photo-1705326454924-f6777522b030?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdvbWVucyUyMGpld2VsbGVyeXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1681276170683-706111cf496e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHdvbWVucyUyMGpld2VsbGVyeXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzh8fHdvbWVucyUyMGpld2VsbGVyeXxlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1682308404389-eb671e915789?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fHdvbWVucyUyMGpld2VsbGVyeXxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/womens-jewellery"
+  },
+  {
+    "slug": "womens-shoes",
+    "name": "Women's Shoes",
+    "description": "Shoes for every woman, from casual to formal.",
+    "images": [
+      "https://images.unsplash.com/photo-1621996659490-3275b4d0d951?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d29tZW5zJTIwc2hvZXN8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1667161529094-16ba30fa00a0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8d29tZW5zJTIwc2hvZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1585059895926-5e3be4d7c385?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fHdvbWVucyUyMHNob2VzfGVufDB8fDB8fHww",
+      "https://images.unsplash.com/photo-1608319294852-d87737e8e46c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fHdvbWVucyUyMHNob2VzfGVufDB8fDB8fHww"
+    ],
+    "url": "https://dummyjson.com/products/category/womens-shoes"
+  },
+  {
+    "slug": "womens-bags",
+    "name": "Women's Bags",
+    "description": "Elegant bags for women of all styles.",
+    "images": [
+      "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8d29tZW5zJTIwYmFnc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://plus.unsplash.com/premium_photo-1671028547411-12a7fb233ddd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHdvbWVucyUyMGJhZ3N8ZW58MHx8MHx8fDA%3D",
+      "https://plus.unsplash.com/premium_photo-1672883551967-ab11316526b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHdvbWVucyUyMGJhZ3N8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1527385352018-3c26dd6c3916?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdvbWVucyUyMGJhZ3N8ZW58MHx8MHx8fDA%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/womens-bags"
+  },
+  {
+    "slug": "womens-watches",
+    "name": "Womens Watches",
+    "description": "Shoes for every woman, from casual to formal.",
+    "images": [
+      "https://images.unsplash.com/photo-1658973071132-6627c0d9e1c8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29tZW5zJTIwd2F0Y2hlc3xlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1658973070906-df15ae8c676d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHdvbWVucyUyMHdhdGNoZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1604242692760-2f7b0c26856d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fHdvbWVucyUyMHdhdGNoZXN8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1511517016446-faa23cd55bf9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHdvbWVucyUyMHdhdGNoZXN8ZW58MHx8MHx8fDA%3D"
+    ],
+    "url": "https://dummyjson.com/products/category/womens-watches"
+  }
+]

@@ -1,0 +1,367 @@
+.deliver {
+  text-wrap: nowrap;
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+}
+.locationIconContainer i {
+  color: white;
+}
+
+.deliverAndLocationContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+}
+.location-icon {
+  font-size: 1.2rem;
+}
+
+.countryName {
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+}
+.logoImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 0.5rem;
+}
+.Toplogo {
+  width: 55%;
+  padding: 0.3rem;
+}
+.TopLeftlocation {
+  width: 40%;
+  position: relative;
+  cursor: pointer;
+}
+
+.a-popover-wrapper {
+  width: 350px;
+  height: 220px;
+  position: absolute;
+  top: 7rem;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 3;
+  background: #fff;
+  transform: translate(64%);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-500px);
+}
+
+.a-popover-wrapper_Active {
+  transform: translate(55%);
+}
+
+.nav-right {
+  width: 100%;
+  display: flex;
+}
+.nav-right span {
+  color: white;
+}
+.nav-right .layoutToolbarPadding {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.8rem;
+  flex-shrink: 1;
+}
+
+.cart_Container {
+  display: flex;
+}
+.retrun_Container {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.nav-ENG .icp-nav-link-inner {
+  display: flex;
+}
+.nav-ENG .icp-nav-link-inner .nav-line-2 {
+  display: flex;
+  gap: 2px;
+}
+
+.nav-right {
+  font-size: 12px;
+  gap: 2px;
+}
+.flag {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+.nav-arrowIcon {
+  font-size: 12px;
+  padding-top: 4px;
+}
+.navsigninContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.nav-line-2 {
+  text-wrap: nowrap;
+  display: flex;
+}
+.nav-cart-count-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.nav-cart-count {
+  position: absolute;
+  top: 0px;
+  left: 14px;
+  font-size: 17px;
+  font-weight: 800;
+  color: rgba(81, 65, 0, 0.994);
+}
+.nav-cart-count-container .nav-cart-icon {
+  color: rgb(255, 255, 255);
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.navBottomContainer {
+  background: #0368a7;
+}
+.navBottomContainer {
+  width: 100%;
+  height: 2.2rem;
+}
+
+.navBottomContainer ul li {
+  font-size: 13px;
+  font-weight: 500;
+}
+.navBottomContainer ul li a {
+  color: white;
+  text-decoration: none;
+}
+a:hover,
+li {
+  cursor: pointer;
+}
+
+li:hover:not(:first-child) {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: blueviolet;
+  transition: all 0.5s ease-in-out;
+  border-radius: 3px;
+}
+.language_container {
+  position: relative;
+}
+
+#nav-flyout-language {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  padding: 0.5rem;
+  top: 1.3rem;
+  left: 0;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: all 0.5s ease-in-out;
+  z-index: 3;
+  display: none;
+}
+
+.nav-ENG.ENG:hover #nav-flyout-language,
+.nav-ENG.ENG:focus-within {
+  /* background: #000; */
+  display: block;
+}
+
+.nav-template {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.nav-text {
+  display: flex;
+  align-items: center;
+}
+.icp-radio {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid orange;
+  position: relative;
+  margin-right: 0.5rem;
+}
+
+.icp-radio:hover::after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 10px;
+  height: 10px;
+  background: orange;
+  border-radius: 50%;
+}
+.nav-text span {
+  color: rgb(0, 0, 0);
+  transition: all 0.2s ease-in-out;
+}
+.nav-text:hover span {
+  text-decoration: underline;
+  color: rgb(213, 139, 0);
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-divider.icp-flyout-curr-divider,
+.nav-divider {
+  width: 100%;
+  height: 1px;
+  background-image: linear-gradient(
+    60deg,
+    transparent,
+    rgba(51, 51, 51, 0.4),
+    transparent
+  );
+}
+.rightSideNav span {
+  font-size: 13px;
+  text-wrap: nowrap;
+  font-weight: 600;
+  padding-right: 1.5rem;
+  cursor: pointer;
+}
+.nav-link-accountList-nav-line-1 {
+  text-wrap: nowrap;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.nav-flyout-accountList {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  top: 2.3rem;
+  left: -15rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 5px;
+  background: #fff;
+  padding: 1rem;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+  display: none;
+}
+
+.navsigninContainer:hover .nav-flyout-accountList,
+.navsigninContainer:focus-within {
+  /* background: #000; */
+  display: block;
+  z-index: 4;
+}
+
+#nav-al-your-account {
+  position: relative;
+}
+.user_name {
+  font-size: 10px;
+  margin-top: 2px;
+}
+.nav-line-1-container {
+  display: flex;
+  flex-direction: column;
+  line-height: 0;
+  /* margin-top: 1rem; */
+}
+
+#nav-al-your-account::after {
+  content: "";
+  width: 1px;
+  height: 90%;
+  position: absolute;
+  top: 1rem;
+  left: -6px;
+  background: #333333;
+  margin-right: 0rem;
+  border-radius: 20px;
+  opacity: 0.3;
+}
+.nav-action-signin-button {
+  width: 150px;
+  background: orange;
+  color: black;
+  text-align: center;
+  padding: 5px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 0 0 0 6rem;
+}
+
+.nav-flyout-content {
+  display: flex;
+  flex-direction: column;
+}
+#nav-al-container {
+  /* background: red; */
+  display: flex;
+  justify-content: space-around;
+}
+.nav_pop_new_cust {
+  padding: 0 0 0 6.5rem;
+}
+.nav-right .nav-flyout-content span {
+  color: rgb(12, 9, 9);
+}
+.nav-right .nav-flyout-content span:hover {
+  color: rgb(172, 140, 1);
+  transition: all 0.3s ease-in;
+  text-decoration: underline;
+}
+#nav-al-signin {
+  position: relative;
+}
+#nav-al-signin::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 3rem;
+  left: -6px;
+  background: #333333;
+  border-radius: 20px;
+  opacity: 0.3;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 90.11px - 7px);
+  bottom: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  z-index: 3;
+  transition: 0.5s ease-in-out;
+}
+@media (max-width: 650px) {
+  .navBottomContainer .rightSideNav {
+    display: none;
+  }
+}

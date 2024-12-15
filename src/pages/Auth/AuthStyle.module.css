@@ -1,0 +1,85 @@
+.login {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login img {
+  margin: 30px auto;
+  object-fit: contain;
+  width: 100px;
+}
+.login__container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 10px 20px;
+  position: relative;
+}
+.login__container h1 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.login__container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login__container form div {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__container form input {
+  margin-bottom: 10px;
+  padding: 5px 16px;
+  width: 100%;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+
+.login__container form input:focus {
+  outline: 1px solid skyblue;
+}
+
+.login_singimButton {
+  border: none;
+  background: #f0c14b;
+  border-radius: 5px;
+  width: 90%;
+  margin: 10px 20px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_singimButton:hover,
+.login__createAccount:hover {
+  background: var(--prymary-shade);
+  border: 1px solid gray;
+}
+
+.login__container p {
+  padding: 10px 0;
+  font-size: 13px;
+}
+
+.login__createAccount {
+  border: none;
+  background: #dddbd7;
+  border-radius: 5px;
+  width: 90%;
+  margin: 10px 20px;
+  height: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,129 @@
+::-webkit-scrollbar {
+  width: 10px;
+  background: #fff;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  background: gray;
+  border-radius: 5px;
+}
+.hmenu-content {
+  width: 320px;
+  height: 100vh;
+  overflow: auto;
+  background: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  transition: all 0.5s ease-in-out;
+  transform: translateX(-500px);
+}
+.SideBarACtive {
+  transform: translateX(0px);
+  transition: all 0.5s ease-in-out;
+}
+
+.SideBarOverlay {
+  width: calc(100% - 320px);
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.5;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+}
+.btnClose {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 5;
+  color: white;
+  cursor: pointer;
+}
+.hmenu-content ul {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  /* gap: 0.2rem; */
+  margin-top: 2.2rem;
+  margin-bottom: 2rem;
+  transition: all 0.5s ease-in-out;
+}
+.hmenu-content ul {
+  padding: 0;
+}
+.hmenu-content ul li {
+  list-style: none;
+  width: 100%;
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+  transition: 0.2s ease-in;
+}
+
+.hmenu-content ul li:hover {
+  text-decoration: none;
+  background: rgb(229, 229, 229);
+}
+
+.hmenu-content ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hmenu-content .hmenu-title {
+  font-weight: 700;
+  color: black;
+  font-size: 18px;
+}
+.sub-toggled {
+  transform: translate(-400px);
+  transition: all 0.5s ease-in-out;
+}
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+.hmenu.hmenu-visible {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.navSubDetail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.hmenu-separator {
+  width: 100%;
+  height: 1px;
+  background: #969696;
+}
+.hmenu-customer-profile {
+  width: 311px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  padding: 0.5rem;
+  color: white;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

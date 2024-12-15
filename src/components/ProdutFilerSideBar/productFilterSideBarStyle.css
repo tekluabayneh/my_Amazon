@@ -1,0 +1,118 @@
+.productSideBarFilter_Container {
+  padding: 0.3rem 0.7rem;
+  text-wrap: nowrap;
+}
+.radio-label {
+  text-wrap: nowrap;
+}
+
+/* ///////////////////////////////////////////// */
+.filterSubTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+.filterSubTitle span {
+  padding: 0 0.2rem;
+  background: lightblue;
+  border: 2px solid rgba(0, 128, 28, 0.882);
+  border-radius: 10px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+}
+.filterSubTitle span:nth-child(1) {
+  width: 10rem;
+}
+.filterSubTitle span:nth-child(2) {
+  width: 5rem;
+}
+.filterSubTitle span:last-child {
+  width: 3rem;
+}
+
+/* ///////////////////////////////////////////////////////////// */
+.department_Container ul li {
+  list-style: none;
+}
+.department-title,
+.brands-title,
+.review-rating-title,
+.discount-title {
+  font-weight: 600;
+  color: black;
+  padding: 0.5rem;
+}
+.breadcrumb-container li {
+  font-size: 14px;
+  padding: 0.5rem;
+}
+.department-radio label {
+  display: flex;
+  gap: 0.2rem;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 0.4rem;
+  font-size: 16px;
+}
+.radio-icon {
+  position: absolute;
+  top: 2.8px;
+  left: -2.5px;
+  width: 17px;
+  height: 17px;
+  border: 4px solid blue;
+  border-radius: 50%;
+}
+/* ///////////////////////////////////////////////// */
+.review-rating-container .rating-option label,
+.radio-option label {
+  display: flex;
+  gap: 0.3rem;
+  position: relative;
+}
+
+.brand_container {
+  padding-top: 0.5rem;
+}
+.review-rating-container span {
+  font-size: 15px;
+}
+.star-rating {
+  display: flex;
+  gap: 0.4rem;
+}
+.brand-checkbox label,
+.radio-option label {
+  display: flex;
+  gap: 0.2rem;
+  cursor: pointer;
+  margin-bottom: 0.3rem;
+}
+.brand-checkbox label input[type="checkbox"],
+input[type="radio"] {
+  cursor: pointer;
+}
+.star-rating {
+  display: flex;
+  align-items: center;
+}
+.icon-radio {
+  position: absolute;
+  top: 2.6px;
+  left: -1.4px;
+  width: 16px;
+  height: 16px;
+  border: 4px solid blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+/* /////////////////////////////////////////////////// */
+.discount_container {
+  padding-top: 0.5rem;
+}
+.discount_container .radio-group {
+  margin-bottom: 0.9rem;
+  margin-top: 0.8rem;
+}
