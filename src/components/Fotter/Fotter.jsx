@@ -4,12 +4,16 @@ import { Bottmfooter } from "../../data/Fotter";
 import { Link } from "react-router-dom";
 import "./Footer.css";
 const Footer = () => {
+  const backToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <>
       <div className="backToTopBtn">
-        <Link to="/">
-          <button>Back to Top</button>
-        </Link>
+        <button onClick={() => backToTop()}>Back to Top</button>
       </div>
       <footer className="main_footer_container">
         {Topfooter.sections.map((footer, index) => {

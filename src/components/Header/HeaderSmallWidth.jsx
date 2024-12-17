@@ -10,10 +10,8 @@ const HeaderSmallWidth = ({ togglesmallNavClose, settogglesmallNavClose }) => {
       >
         <ul className="sm-navContainer">
           <li>
-            <a href="/Auth" className="helloSignin_container pb-2">
-              <div className="nav-line-1-container">
-                <span className="helloSignin">Hello,sign in</span>
-              </div>
+            <a href="/Auth" className="helloSignin_container">
+              <span className="helloSignin">Hello,sign in</span>
             </a>
             <span className="activeLink"></span>
           </li>

@@ -35,7 +35,7 @@
 }
 .sm-navContainer li {
   width: 100%;
-  padding: 0.3rem;
+  padding: 0.5rem;
   list-style-type: none;
   position: relative;
 }
@@ -48,7 +48,7 @@
   align-items: start;
   gap: 0.4rem;
   margin-left: 1rem;
-  opacity: 0.7;
+  cursor: pointer;
 }
 .sm-navContainer li a:hover {
   opacity: 1;

@@ -24,6 +24,7 @@ const Index = () => {
   useEffect(() => {
     setCategories(jsonData);
   }, []);
+
   return IsLoading ? (
     <Loader />
   ) : (
