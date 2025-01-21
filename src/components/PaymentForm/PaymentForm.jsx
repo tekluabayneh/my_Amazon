@@ -32,13 +32,16 @@ const PaymentForm = () => {
     (amount, item) => item.price * item.amount + amount,
     0
   );
-
+  // https://my-amazon-u75f.onrender.com/
+  // `http://localhost:8080/payment-create?total=${Total * 100}`;
   const handleSubmit = async (e) => {
     e.preventDefault();
     setproccesing(true);
     try {
       const response = await fetch(
-        `http://localhost:8080/payment-create?total=${Total * 100}`,
+        `https://my-amazon-u75f.onrender.com/payment-create?total=${
+          Total * 100
+        }`,
         {
           method: "POST",
           headers: {
