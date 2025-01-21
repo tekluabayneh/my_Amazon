@@ -7,6 +7,11 @@ const cors = require("cors");
 const functions = require("firebase-admin");
 const { CurrencySelectorElement } = require("@stripe/react-stripe-js");
 const Stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
+
+// Retrieve the Stripe secret key from Firebase config
+// const STRIPE_SECRET_KEY = functions.config().stripe.secret;
+// const Stripe = require("stripe")(STRIPE_SECRET_KEY);
+
 const app = express();
 dotenv.config();
 const port = 8080;
@@ -15,7 +20,7 @@ app.use(cors({ origin: true }));
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json("welcome teklu");
+  res.json("welcome");
 });
 
 app.post("/payment-create", async (req, res) => {
